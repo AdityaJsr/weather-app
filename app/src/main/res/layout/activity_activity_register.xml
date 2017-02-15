@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.adityakumar.theweatherapp.Activity_register">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter the following details"
+        android:id="@+id/tView1"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#2e58ef"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tView1"
+        android:id="@+id/etName"
+        android:layout_marginTop="30dp"
+        android:hint="NAME"
+        android:textColorHint="#4f60cf"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etName"
+        android:inputType="textEmailAddress"
+        android:id="@+id/etEMAIL"
+        android:layout_marginTop="40dp"
+        android:hint="EMAIL ADDRESS"
+        android:textColorHint="#4f60cf"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etEMAIL"
+        android:id="@+id/etPass"
+        android:layout_marginTop="40dp"
+        android:inputType="textPassword"
+        android:hint="PASSWORD"
+        android:textColorHint="#4f60cf"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPass"
+        android:id="@+id/etUID"
+        android:layout_marginTop="40dp"
+        android:hint="USER NAME"
+        android:textColorHint="#4f60cf"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etUID"
+        android:id="@+id/btnRegister2"
+        android:layout_marginTop="40dp"
+        android:text="REGISTER"
+        />
+
+
+</RelativeLayout>

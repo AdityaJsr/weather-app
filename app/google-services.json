@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "854795788955",
+    "firebase_url": "https://apissss-ee6cb.firebaseio.com",
+    "project_id": "apissss-ee6cb",
+    "storage_bucket": "apissss-ee6cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854795788955:android:0c0d160fd6e340c2",
+        "android_client_info": {
+          "package_name": "com.example.adityakumar.theweatherapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "854795788955-9r94792s1mqlcpn7vvfu33jbfnlhfvm4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.adityakumar.theweatherapp",
+            "certificate_hash": "667F0E8061771BA89988B637E9B4FC4AF62A03DA"
+          }
+        },
+        {
+          "client_id": "854795788955-skq6nnm3mao22m6nhe96bbj50bdskmgs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCr-HwKsFfPDrQ0GkehQTbwz-fBmW7YY2M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "854795788955-skq6nnm3mao22m6nhe96bbj50bdskmgs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
